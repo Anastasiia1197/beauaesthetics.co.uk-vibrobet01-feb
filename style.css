@@ -39,23 +39,23 @@
 :root {
 	interpolate-size: allow-keywords;
 
-	--background: linear-gradient(45deg, #0c0a09 0%, #1c1917 45%, #0c0a09 100%);
-	--header: linear-gradient(90deg, #1c1917e0, #2dd4bf, #0c0a09);
-	--btn-accent: linear-gradient(135deg, #fb923c, #ea580c);
-	--btn-inherit: #fff7ed;
-	--accent: linear-gradient(135deg, #f97316, #c2410c);
-	--sub-title: linear-gradient(-135deg, #2dd4bf30, #042f2e);
-	--gift: #f0fdfae1;
-	--gift-bg: rgba(251, 146, 60, 0.1);
-	--gift-btn: linear-gradient(135deg, #9a3412, #431407);
-	--border-radius: 10px;
-	--container: #0c0a09;
-	--table: linear-gradient(180deg, #1c1917, #0c0a09);
-	--minus: #38bdf8;
-	--shadow: #fb923c50;
-	--second-shadow: #ea580c;
-	--text-shadow: #2dd4bf;
-	--list-bg: linear-gradient(90deg, rgba(45, 212, 191, 0.1), rgba(251, 146, 60, 0.1));
+	--background: linear-gradient(45deg, #000000 0%, #111111 45%, #000000 100%);
+	--header: linear-gradient(90deg, #111111, #ffd700, #000000);
+	--btn-accent: linear-gradient(135deg, #ffcc33, #ffb300);
+	--btn-inherit: #ffffff;
+	--accent: linear-gradient(135deg, #ff9900, #cc7a00);
+	--sub-title: linear-gradient(-135deg, rgba(255, 215, 0, 0.15), #000000);
+	--gift: #fff9db;
+	--gift-bg: rgba(255, 215, 0, 0.05);
+	--gift-btn: linear-gradient(135deg, #262626, #000000);
+	--border-radius: 12px;
+	--container: #000000;
+	--table: linear-gradient(180deg, #0f0f0f, #000000);
+	--minus: #ef4444;
+	--shadow: rgba(255, 204, 51, 0.4);
+	--second-shadow: #ffb300;
+	--text-shadow: #ffd700;
+	--list-bg: linear-gradient(90deg, rgba(255, 215, 0, 0.1), rgba(255, 153, 0, 0.1));
 }
 
 * {
@@ -220,6 +220,7 @@ header img {
 	margin-right: 5px;
 	font-weight: 700;
 	transition: all 0.3s ease-in-out;
+	transform: perspective(500px) rotateY(35deg);
 }
 
 .h-accent-btn {
@@ -230,6 +231,7 @@ header img {
 	text-align: center;
 	font-weight: 700;
 	transition: all 0.3s ease;
+	transform: perspective(500px) rotateY(-35deg);
 }
 
 .h-app-link {
